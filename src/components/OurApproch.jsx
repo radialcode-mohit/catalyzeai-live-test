@@ -88,7 +88,7 @@ export default class AsNavFor extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className=" pe-xl-4">
+                  <div className=" pe-xl-5">
                     {" "}
                     <div className=" bg_box p-3 ">
                       <img
@@ -101,7 +101,7 @@ export default class AsNavFor extends Component {
                       </p>
                     </div>
                   </div>
-                  <div className=" pe-xl-4">
+                  <div className=" pe-xl-5 ">
                     {" "}
                     <div className=" bg_box p-3 ">
                       <img
@@ -116,7 +116,7 @@ export default class AsNavFor extends Component {
                   </div>
                 </Slider>
                 <Slider
-                  className=" py-5 pe-lg-5 me-lg-5 me-3    ps-xl-5 ms-xl-5"
+                  className=" py-5 pe-lg-4 me-lg-5 me-3    ps-xl-5 ms-xl-5"
                   asNavFor={this.state.nav2}
                   arrows={false}
                   ref={(slider) => (this.slider1 = slider)}

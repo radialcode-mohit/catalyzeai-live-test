@@ -17,12 +17,6 @@ const ModalSection = () => {
           className=" position-relative text-center bg_modalimg max_w_946  mx-auto br_15"
           data-aos="flip-down"
         >
-          {/* <img
-            src={modalimg}
-            alt="modalimg"
-            onClick={handleShow}
-            className="w-100 max_w_946 cur_poi"
-          /> */}
           <div
             onClick={handleShow}
             className="h-100 cur_poi d-flex justify-content-center flex-column py-5 align-items-center "

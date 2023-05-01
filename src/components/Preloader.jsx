@@ -13,7 +13,7 @@ const Preloader = () => {
           <img
             src={mainlogo}
             alt="mainlogo"
-            className="d-flex align-items-center justify-content-center"
+            className="d-flex align-items-center justify-content-center preloader_animation"
           />
         </div>
       </div>

@@ -675,6 +675,20 @@
 .slick-current .accordion-button::after {
   transform: rotate(180deg) !important;
 }
+.preloader_animation {
+  animation-name: prelaoder;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes prelaoder {
+  from {
+    transform: scale();
+  }
+  to {
+    transform: scale(1.4);
+  }
+}
 /* root ------------------------------------------------------------------ */
 @media (min-width: 576px) {
   :root {

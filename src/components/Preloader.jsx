@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import mainlogo from "../assets/images/svg/logo.svg";
 const Preloader = () => {
   setTimeout(() => {
+    window.scrollTo(0, 0);
     document.querySelector(".none").style.display = "none";
     document.body.classList.remove("overflow_hidden");
   }, 3000);
